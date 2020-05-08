@@ -87,6 +87,18 @@ animation: textgrowth 1s infinite alternate;
     padding-left: 40%;
     padding-right: 40%;
 }
+table#table {
+    width: 100%;
+    height: 100%;
+    background-color: #bebebe;
+}
+table#table tr{
+    background-color: gray;
+}
+table#table th {
+    color: black;
+    background-color: #ffffb1;
+}
 .butttt
 {
     opacity:0.5;
@@ -177,18 +189,6 @@ li {
 }
 .takkii {
     display: none;
-}
-table#table {
-    width: 100%;
-    height: 100%;
-    background-color: #bebebe;
-}
-table#table tr{
-    background-color: gray;
-}
-table#table th {
-    color: black;
-    background-color: #ffffb1;
 }
 }
 @import 'layout', 'icomoon','socialButts';
